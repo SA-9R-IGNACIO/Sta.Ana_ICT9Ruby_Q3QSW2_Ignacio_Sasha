@@ -1,0 +1,34 @@
+body {
+    font-family: roman;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    height: 100vh;  
+    text-align: center;  
+    flex-direction: column;  
+}
+
+span {
+    font-size: 40px;
+    color: mediumpurple;
+}
+
+#kalu {
+    margin-top: 60px;
+    height: 370px;
+    width: 530px;
+}
+
+#box {
+    border: 2px dashed white;
+}
+
+#numA, #numB {
+    background-color: #FFD1DF;
+    color: black;
+    font-size: 30px;
+}
+
+#prodAB, #raisedAB, #remainderAB, #equalAB, #logicAB {
+    background-color: lightyellow;
+}

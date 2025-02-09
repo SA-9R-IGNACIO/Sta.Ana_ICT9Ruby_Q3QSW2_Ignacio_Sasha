@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q3 Seatwork 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-secondary text-light">
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="https://static.wikia.nocookie.net/ouran/images/6/64/Kyoya_Ootori_with_a_drink.jpg/revision/latest?cb=20160116041425" id="kalu">
+            </div>
+            <div class="col-md-6" id="box">
+                <h3>Hi, my name is <span>Kyoya</span>! Let's test your Math skills. <br><br> Given: </h3>
+                <h5>
+                    <form class="form-group">
+                        <label>Enter a value for <kbd>a</kbd>:</label><br><br>
+                        <input class="form-control btn-default" type="number" id="numA">
+                        <br>
+                        <label>Enter a value for <kbd>b</kbd>:</label><br><br>
+                        <input class="form-control btn-default" type="number" id="numB">
+                        <br><br>
+                        <details ontoggle="message()">
+                            <summary>Click here</summary>
+                            <i>Click the buttons below to calculate.</i>
+                        </details>
+                    </form>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-grid">
+                <button onclick="product()" class="btn btn-success btn-block" id="prodAB">Product of a and b</button>
+            </div>
+            <div class="col-md-6 d-grid">
+                <button onclick="power()" class="btn btn-warning btn-block"id="raisedAB">a raised to b</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6 d-grid">
+                <button onclick="remainder()" class="btn btn-danger btn-block"id="remainderAB">Get the remainder</button>
+            </div>
+            <div class="col-md-6 d-grid">
+                <button onclick="compare()" class="btn btn-info btn-block"id="equalAB">Check if a is equal to b</button>
+            <div class="row">
+                 <div class="col-md-12 d-grid">
+        <button onclick="logicalOperation()" class="btn btn-primary btn-block" id="logicAB">Test Logical Operations</button>
+    
+        </button>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
